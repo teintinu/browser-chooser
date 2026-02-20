@@ -1,0 +1,15 @@
+# Swift / SPM
+.build/
+.swiftpm/
+
+# macOS App Bundle
+teintinu-browser-chooser.app/
+
+# Local configuration (Contains API Keys)
+# Ignoramos o config.json para segurança, mas mantemos o rules.json como solicitado
+config.json
+
+# System Files
+.DS_Store
+*.swp
+*~
